@@ -1,0 +1,1 @@
+{"version":3,"sources":["controls/peoplepicker/index.ts"],"names":[],"mappings":";;;;;AACA,6CAAwC;AACxC,qCAAgC","file":"controls/peoplepicker/index.js","sourcesContent":["export * from './IPeoplePicker';\r\nexport * from './PeoplePickerComponent';\r\nexport * from './PrincipalType';\r\n"],"sourceRoot":"..\\..\\..\\src"}
