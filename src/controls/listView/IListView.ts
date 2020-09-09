@@ -5,7 +5,8 @@ export { SelectionMode };
 
 export enum GroupOrder {
   ascending = 1,
-  descending
+  descending = 2,
+  none = 3
 }
 
 export interface IListViewProps {
