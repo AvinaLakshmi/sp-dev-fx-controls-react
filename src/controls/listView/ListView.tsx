@@ -127,7 +127,13 @@ export class ListView extends React.Component<IListViewProps, IListViewState> {
         // Sort the grouped items object by its key
         const sortedGroups = {};
         let groupNames = Object.keys(groupedItems);
-        groupNames = groupField.order === GroupOrder.ascending ? groupNames.sort() : groupNames.sort().reverse();
+        //groupNames = groupField.order === GroupOrder.ascending ? groupNames.sort() : groupNames.sort().reverse();
+        if(groupField.order==3)
+                {}
+                else
+                {
+                groupNames = groupField.order === GroupOrder.ascending ? groupNames.sort() : groupNames.sort().reverse();
+                }
         groupNames.forEach((key: string) => {
           sortedGroups[key] = groupedItems[key];
         });
