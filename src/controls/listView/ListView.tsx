@@ -495,7 +495,7 @@ export class ListView extends React.Component<IListViewProps, IListViewState> {
    */
   public render(): React.ReactElement<IListViewProps> {
     let groupProps: IGroupRenderProps = {};
-
+    groupProps={isAllGroupsCollapsed:true};
     let { showFilter, filterPlaceHolder } = this.props;
     let { filterValue, items } = this.state;
 
